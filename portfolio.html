@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio: scannon2k</title>
+    <style>
+        body {
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+            margin: 0;
+            padding: 0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f2f2f2;
+        }
+
+        header {
+            background-color: #1e1e1e;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+
+        section {
+            flex-grow: 1;
+            max-width: 800px;
+            margin: 20px auto; /* Adjusted margin */
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+        }
+
+        h2 {
+            color: #1e1e1e;
+        }
+
+        .project {
+            margin-bottom: 20px;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #1e1e1e;
+            color: #fff;
+        }
+
+        .about-section {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .about-image {
+            max-width: 100%;
+            border-radius: 50%;
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Sean Cannon</h1>
+        <p>Data Analyst</p>
+    </header>
+
+    <section class="about-section">
+        <img src="https://avatars.githubusercontent.com/u/69410415?s=400&u=3c3135176519020320c7238fb61dc2f214b568c4&v=4" alt="Me" class="about-image">
+        <h2>About Me</h2>
+        <p>Hey there! I'm a data analyst and amateur programmer who loves turning messy data into exciting stories. I also enjoy learning basic web and application development. See below for a portfolio of some of my projects and coursework.</p>
+    </section>
+
+    <section>
+        <h2>Projects</h2>
+
+        <div class="project">
+            <h3><a href="https://github.com/scannon2k/pokemon-machine-learning/blob/main/pokemon_ML.ipynb">Basics of Machine Learning</a></h3>
+            <p>Introduction to clustering, regression, and random forest using data from the popular mobile game Pokémon GO. Implements popular python data science libraries like pandas, numpy, sklearn, and statsmodels.</p>
+        </div>
+
+        <div class="project">
+            <h3><a href="https://github.com/scannon2k/lichess-eda/blob/main/lichess_EDA.ipynb">Exploratory Data Analysis</a></h3>
+            <p>Explore features of chess data from popular site lichess! Demonstrates EDA techniques used prior to more complicated analysis.</p>
+        </div>
+
+        <div class="project">
+            <h3><a href="https://scannon2k.github.io/inflation-forecasting/">Ensemble Models: Forecasting Inflation</a></h3>
+            <p>Use ensemble forecasting to predict 1-year ahead inflation using data from FRED. Compare these models to benchmark models to evaluate forecast accuracy.</p>
+        </div>
+
+        <div class="project">
+            <h3><a href="https://scannon2k.github.io/interest-rate-vecm/">Simple VECM: Analyzing Spreads</a></h3>
+            <p>Attempt to implement a Vector Error Correction Model (VECM). Investigate and describe the dynamic relationship between the 2 year and 10 year treasury note yields.</p>
+        </div>
+
+        <div class="project">
+            <h3><a href="https://github.com/scannon2k/python-sorter">Python File Sorter</a></h3>
+            <p>First exposure to general programming techniques using python. Program used to organize a directory by sorting files into subdirectories based on file type.</p>
+        </div>
+
+        <!-- Add more projects as needed -->
+
+    </section>
+
+    <footer>
+        <p>&copy; 2023</p>
+    </footer>
+
+</body>
+</html>
